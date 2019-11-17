@@ -1,0 +1,106 @@
+/* 风格样式设置 */
+.wl-title{
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(47, 47, 47);
+}
+.wl-subtitle{
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(153, 153, 153);
+}
+.wl-meta{
+	font-size: 12px;
+	font-weight: 400;
+	color: rgb(153, 153, 153);
+}
+
+
+/* 主题设置 */
+.wl-primary-theme{
+	background-color: #009688;
+	color: #fff;
+}
+
+.wl-warning-theme{
+	background-color: #fb8c00;
+	color: #fff;
+}
+.wl-success-theme{
+	background-color: #4caf50;
+	color: #fff;
+}
+
+
+
+/* 按钮设置 */
+.wl-btn{
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	margin: 5px;
+	
+}
+.wl-btn-round{
+	border-radius: 20px;
+}
+.wl-btn-circle{
+	border-radius: 50%;
+}
+.wl-btn-normal{
+	width: 120px;
+	height: 35px;
+}
+.wl-btn-large{
+	width: 140px;
+	height: 45px;
+}
+/* 表单元素样式 */
+.wl-input-box{
+	border:1px solid #eee;
+	border-radius: 5px;
+	height: 35px;
+}
+/* 阴影样式 */
+.wl-shadow{
+	box-shadow:2px 5px 10px #aaa;
+}
+.wl-avatar{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+.router-link-active {
+	color: #fff;
+	font-weight: 700;
+}
+
+/* 导航条设置 */
+.wl-nav {
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.wl-nav-bar {
+	width: 80%;
+	margin: 0 auto;
+}
+导航
+.wl-list {
+	display: inline-block;
+	line-height: 70px;
+}
+
+.xu-list li {
+	display: inline-block;
+
+}
+
+/* 超链接样式 */
+.wl-list li a {
+	color: #eee;
+}
