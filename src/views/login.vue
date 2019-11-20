@@ -69,7 +69,7 @@
 					<i class="iconfont ic-user-password">
 					</i>
 					</i>
-						<input type="text"   placeholder= " 请设置密码" minlength=6 maxlength=16 v-model="user.password"
+						<input type="password"   placeholder= " 请设置密码" minlength=6 maxlength=16 v-model="user.password"
 						required="required"  @focusin="clearAccount"
 						/>
 				</div>
